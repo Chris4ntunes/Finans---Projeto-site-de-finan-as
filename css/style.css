@@ -1,0 +1,162 @@
+/*** /* Estrutura do site
+*****/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    min-width: 550px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+	width: 1080px;
+	margin: 0 auto;
+
+}
+
+a:link, a:active, a:visited {
+	color:black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ffffff;
+}
+
+
+/*** TOPO
+*****/
+
+nav{
+    margin: 0;
+    font-size: 12px;
+    padding: 0;
+
+}
+header img{
+    margin-top: 5px;
+}
+
+header{
+    background: #ffc107;
+    padding: 15px 0;
+	height: 55px;
+    margin-bottom: 90px;
+}
+
+
+nav ul {
+	list-style: none;
+	margin: 20px;
+	float: right;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a:link {
+	display: block;
+	margin-right: 25px;
+	padding-bottom: 3px;
+	text-transform: uppercase;
+}
+
+nav ul li a:hover {
+	border-bottom: 1px solid #535858;
+}
+
+/*** CONTEUDO
+*****/
+article{
+    padding: 80px;
+    margin: 10px;
+
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+
+.planos h2{
+    color: #ffc107;
+    text-align: center;
+}
+
+.planos li{
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.planos i{
+    margin-right: 5px;
+}
+
+.planos{
+    float: left;
+    padding-bottom: 50px;
+    width: 500px;
+    padding: 5px;
+    border-radius: 10px ;
+    border: 1px solid rgb(31, 27, 27);
+    background: rgb(91, 174, 223);
+}
+
+#botao{  
+    padding: 10px;
+    border: 2px solid rgb(44, 93, 255);
+    border-radius: 10px;
+
+}
+
+.planos a:hover{
+    
+    color: white;
+    background: rgb(44, 93, 255);
+
+}
+
+.planos a{
+    color: blue;
+    text-transform: uppercase;
+    margin: 150px;
+}
+
+.conteudo-direita{
+    float: right;
+    display: block;
+    width: 500px;
+    height: 312px;
+    padding: 5px;
+}
+
+.conteudo-esquerda{
+    float: left;
+    display: block;
+    width: 500px;
+    height: 312px;
+    padding: 5px;
+}
+
+.caixa {
+	padding: 20px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/*** rodape
+*****/
+
+footer{
+    background: #ffc107;
+    text-align: center;
+    margin-top: 150px;
+    height: 220px;
+}
+
+footer p{
+    
+    padding: 20px;
+}
